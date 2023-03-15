@@ -10,11 +10,11 @@ form.addEventListener('submit', (e)=> {
       progress.value = e.loaded / e.total;
   });
 
-  xhr.upload.addEventListener('load', ()=>{
-      alert('Файл загружен успешно!')
+  xhr.upload.addEventListener('load', () => {
+      alert('Файл загружен успешно')
   });
 
-  xhr.upload.addEventListener('error', ()=>{
+  xhr.upload.addEventListener('error', () => {
       alert('Загрузка не удалась')
   });
   
